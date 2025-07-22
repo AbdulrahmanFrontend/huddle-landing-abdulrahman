@@ -1,13 +1,13 @@
 # 🚀 Huddle Landing Page
 
 <div align="center">
-  <img src="./images/logo.svg" alt="Huddle Logo" width="200">
+  <img src="public/images/logo.svg" alt="Huddle Logo" width="200">
 </div>
 
 A responsive landing page for Huddle, built with React, Tailwind CSS, and Vite. Perfect for showcasing community-building platforms.
 
 ## 📸 Preview
-![preview.png](preview.png)
+[![preview.png](preview.png)]
 
 ## ✨ Features
 
