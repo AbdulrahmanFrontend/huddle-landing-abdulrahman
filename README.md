@@ -7,7 +7,7 @@
 A responsive landing page for Huddle, built with React, Tailwind CSS, and Vite. Perfect for showcasing community-building platforms.
 
 ## 📸 Preview
-[![preview.png](preview.png)]
+![preview.png](preview.png)
 
 ## ✨ Features
 
