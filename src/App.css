@@ -1,0 +1,54 @@
+@import "tailwindcss";
+@media (max-width: 375px) {
+    html {
+        font-size: 14;
+    }
+}
+main {
+    background-image: url("/images/bg-desktop.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Open Sans", sans-serif;
+    font-size: clamp(0.625rem, 2.5vw, 1rem);
+}
+@media (max-width: 768px) {
+    main {
+        background-image: url("/images/bg-mobile.svg");
+    }
+}
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: clamp(1rem, 2.5vw, 2rem);
+    line-height: 1.5;
+}
+a.rounded-4xl {
+    box-shadow: 1px 2px 6px rgb(43, 42, 42);
+}
+a.rounded-4xl:hover,
+a.rounded-4xl:active,
+a.rounded-4xl:focus {
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+.icon {
+    font-size: clamp(1rem, 2.5vw, 2rem);
+}
+.icon:hover,
+.icon:active,
+.icon:focus {
+    color: hsl(300, 69%, 71%);
+}
+@layer components {
+  .public-link {
+    @apply relative z-10 focus:outline-hidden;
+  }
+  .icon {
+    @apply text-white transition;
+  }
+  .relative-z {
+    @apply relative z-10;
+  }
+  .flexbox {
+    @apply flex justify-center items-center;
+  }
+}
