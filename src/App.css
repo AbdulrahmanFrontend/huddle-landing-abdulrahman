@@ -5,7 +5,7 @@
     }
 }
 main {
-    background-image: url("/images/bg-desktop.svg");
+    background-image: url("/images/bg-desktop.avif");
     background-size: cover;
     background-repeat: no-repeat;
     font-family: "Open Sans", sans-serif;
@@ -13,7 +13,7 @@ main {
 }
 @media (max-width: 768px) {
     main {
-        background-image: url("/images/bg-mobile.svg");
+        background-image: url("/images/bg-mobile.avif");
     }
 }
 h1 {

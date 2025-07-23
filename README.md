@@ -1,7 +1,7 @@
 # 🚀 Huddle Landing Page
 
-<div align="center">
-  <img src="public/images/logo.svg" alt="Huddle Logo" width="200">
+<div text-align="center">
+  <img src="public/images/logo.avif" alt="Huddle Logo" width="200">
 </div>
 
 A responsive landing page for Huddle, built with React, Tailwind CSS, and Vite. Perfect for showcasing community-building platforms.
@@ -23,11 +23,32 @@ A responsive landing page for Huddle, built with React, Tailwind CSS, and Vite. 
 - Vite 4
 - React Icons
 
+## 🚀 Performance Status
+[How to improve Lighthouse scores](https://developer.chrome.com/docs/lighthouse/overview?hl=ar)
+
+### Latest Lighthouse Scores (July 2025)
+| Metric         | Mobile | Desktop | Target |
+|----------------|--------|---------|--------|
+| Performance    | 29     | 57      | ≥90    |
+| Accessibility  | 100    | 100     | 100    |
+| Best Practices | 96     | 100     | 100    | 
+| SEO            | 100    | 100     | 100    |
+
+### Known Issues
+- 📱 Mobile performance needs improvement (Target: LCP < 4s)
+- 🖼️ Image optimization in progress (Converting to AVIF/WebP)
+- ⚡ JavaScript bundle size reduction planned
+
+### Optimization Roadmap
+- [ ] Image compression (ETA: 1 week)
+- [ ] Code splitting (ETA: 2 weeks)  
+- [ ] Font loading optimization (ETA: 1 week)
+
 ## 📦 Installation & Setup
 1. **Clone the repository**:
 ```bash
 git clone https://github.com/AbdulrahmanFrontend/huddle-landing-abdulrahman
-cd huddle-landing-page
+cd huddle-landing-abdulrahman
 ```
 2. **Install dependencies**:
 ```bash

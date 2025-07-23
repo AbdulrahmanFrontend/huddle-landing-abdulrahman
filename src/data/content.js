@@ -25,11 +25,11 @@ export default {
     }
   ],
   logo: {
-    src: "./images/logo.svg",
+    src: "/images/logo.avif",
     alt: "Huddle Logo",
   },
   mockups: {
-    src: "./images/illustration-mockups.svg",
+    src: "/images/illustration-mockups.avif",
     alt: "illustration-mockups img",
   },
 }
