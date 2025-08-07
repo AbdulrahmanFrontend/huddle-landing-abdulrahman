@@ -1,117 +1,43 @@
 # 🚀 Huddle Landing Page
 
-<div text-align="center">
+<div align="center">
   <img src="public/images/logo.avif" alt="Huddle Logo" width="200">
 </div>
 
-A responsive landing page for Huddle, built with React, Tailwind CSS, and Vite. Perfect for showcasing community-building platforms.
+A responsive landing page for Huddle built with React and Tailwind CSS.
 
-## 📸 Preview
-![preview.png](preview.png)
+## Screenshot
+
+![preview](./preview.png)
 
 ## ✨ Features
 
-- **Mobile-first design**: Fully responsive on all devices.
-- **Interactive elements**: Hover effects on buttons and social icons.
-- **Optimized performance**: Lazy-loaded images and modern build tools.
-- **SEO-ready**: Includes meta tags for better search engine visibility.
+- Mobile-first responsive design
+- Interactive elements with hover effects
+- Optimized image loading
+- SEO-friendly markup
 
-## 🛠️ Technologies Used
+## 📦 Installation
 
-- React 18
-- Tailwind CSS 3
-- Vite 4
-- React Icons
-
-## 🚀 Performance Status
-[How to improve Lighthouse scores](https://developer.chrome.com/docs/lighthouse/overview?hl=ar)
-
-### Latest Lighthouse Scores (July 2025)
-| Metric         | Mobile | Desktop | Target |
-|----------------|--------|---------|--------|
-| Performance    | 29     | 57      | ≥90    |
-| Accessibility  | 100    | 100     | 100    |
-| Best Practices | 96     | 100     | 100    | 
-| SEO            | 100    | 100     | 100    |
-
-### Known Issues
-- 📱 Mobile performance needs improvement (Target: LCP < 4s)
-- 🖼️ Image optimization in progress (Converting to AVIF/WebP)
-- ⚡ JavaScript bundle size reduction planned
-
-### Optimization Roadmap
-- [ ] Image compression (ETA: 1 week)
-- [ ] Code splitting (ETA: 2 weeks)  
-- [ ] Font loading optimization (ETA: 1 week)
-
-## 📦 Installation & Setup
-1. **Clone the repository**:
-```bash
-git clone https://github.com/AbdulrahmanFrontend/huddle-landing-abdulrahman
-cd huddle-landing-abdulrahman
-```
-2. **Install dependencies**:
 ```bash
 npm install
-```
-3. **Run the development server**:
-```bash
 npm run dev
 ```
-4. **Open http://localhost:5173/ to view in browser**.
-
-## 🌐 Deployment
-Option 1: Netlify (Recommended)
-1. Drag & drop the (build) folder to [Netlify Drop](https://app.netlify.com/drop).
-2. Your site will be live instantly!
-
-Option 2: Vercel
-1. Import the project directly from your GitHub repository on [Vercel](https://vercel.com/new).
 
 ## 📂 Project Structure
+
 ```text
-huddle-landing-page/          (Root folder)
-├── build/                    (Production build - auto-generated)
-│   ├── assets/               (Compiled JS/CSS)
-│   ├── images/               (Optimized images)
-│   └── index.html            (Production entry point)
-│
-├── public/                   (Static files)
-│   └── images/               (Original image assets)
-│       ├── logo.svg
-│       ├── illustration-mockups.svg
-│       ├── bg-desktop.svg
-│       └── bg-mobile.svg
-│
-├── src/                      (Source code)
-│   ├── App.css               (Custom Tailwind styles)
-│   ├── App.jsx               (Main component)
-│   └── data/
-│       └── content.js        (Text/content configuration)
-│
-├── docs/                     (Optional documentation)
-│   ├── User_Guide.md         (Detailed usage instructions)
-│   └── User_Guide.pdf        (PDF version for non-tech clients)
-│
-├── README.md                 (Essential project overview - REQUIRED)
-├── index.html                (Entry point)
-└── vite.config.js            (Build configuration)
+src/
+├── App.jsx           # Main component
+├── data/content.js   # Content configuration
+public/
+└── images/          # Optimized assets
 ```
 
-## 🎨 Customization
-Edit (content.js) to modify:
-- Text content (title, description)
-- Social media links
-- Image paths
+## 🌟 Live Demo
 
-## 🔍 SEO Optimization
-The project includes:
-- Semantic HTML5
-- Meta tags (description, OG tags)
-- Lazy-loaded images
-
-## 🤝 Contributing
-Pull requests are welcome! For major changes, please open an issue first.
+View on [Vercel]()
 
 ## 📄 License
-[MIT](LICENSE) © [Abdulrahman]
+
+[MIT](LICENSE) © Abdulrahman
