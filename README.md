@@ -36,7 +36,7 @@ public/
 
 ## 🌟 Live Demo
 
-View on [Vercel]()
+View on [Vercel](https://huddle-landing-abdulrahman.vercel.app/)
 
 ## 📄 License
 
